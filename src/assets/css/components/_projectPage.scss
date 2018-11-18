@@ -1,0 +1,16 @@
+.projectPage {
+    margin-top: 100px;
+    &__mainImg {
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+    &__images {
+        background-position: center;
+        background-size: cover;
+        height: 370px;
+    }
+    &__title {}
+    &__description {}
+}

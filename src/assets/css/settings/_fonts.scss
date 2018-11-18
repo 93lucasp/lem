@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'HellixBold';
+    src: url('../fonts/Hellix-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Hellix-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Hellix-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Hellix-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Hellix-Bold.svg#Hellix-Bold') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'HellixRegular';
+    src: url('../fonts/Hellix-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Hellix-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Hellix-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Hellix-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Hellix-Regular.svg#Hellix-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
