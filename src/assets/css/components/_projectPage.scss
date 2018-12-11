@@ -11,6 +11,22 @@
         background-size: cover;
         height: 370px;
     }
-    &__title {}
-    &__description {}
+    &__title {
+        font-family: 'HellixBold';
+        font-size: 32px;
+        color: #444549;
+    }
+    &__description {
+        color: #444549;
+        font-size: 16px;
+    }
+    &__label {
+        color: #8F9197;
+        font-size: 16px;
+    }
+    .paragraph-end {
+        color: #444549;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
 }

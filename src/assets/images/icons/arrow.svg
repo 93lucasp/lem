@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/general/32x32/arrow/dark@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/general/32x32/arrow/dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(7.000000, 11.000000)">
+            <polygon id="Fill-1" fill="#444549" points="0 6 16 6 16 4 0 4"></polygon>
+            <polyline id="Stroke-2" stroke="#444549" stroke-width="2" points="12 10 17 5 12 0"></polyline>
+        </g>
+    </g>
+</svg>

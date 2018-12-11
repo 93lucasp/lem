@@ -1,0 +1,13 @@
+.header {
+    margin: 200px auto;
+    padding-left: 100px;
+    &__logo {
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    &__title {
+        font-size: 32px;
+        letter-spacing: 1.66px;
+        line-height: 42px;
+    }
+}

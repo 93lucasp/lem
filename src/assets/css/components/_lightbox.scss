@@ -1,0 +1,21 @@
+.lb-prev {
+    background: url("/assets/images/icons/prev.png") left 48% no-repeat !important;
+    // transform: rotate(-180deg);
+}
+
+.lb-next {
+    background: url("/assets/images/icons/next.png") right 48% no-repeat !important;
+}
+
+.lb-cancel {
+    background: url("/assets/images/icons/loading.gif") no-repeat !important;
+}
+
+.lb-close {
+    background: url("/assets/images/icons/close.png") top right no-repeat !important;
+}
+
+// .lightboxOverlay {
+//     opacity: 1;
+//     background-color: #fff,
+// }

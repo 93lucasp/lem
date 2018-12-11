@@ -1,4 +1,48 @@
-.footer {
-    background-color: #F9F9F9;
+.footer-home {
+    color: #fff;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    @media (max-width: 992px) {
+        bottom: 30px;
+    }
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    z-index: 3;
+    &__line {
+        height: 1px;
+        width: 100px;
+        opacity: 0.5;
+        background-color: #FFFFFF;
+        margin-left: 20px;
+    }
+    a,
+    p {
+        color: #fff;
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    @media (max-width: 992px) {
+        bottom: 30px;
+    }
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    z-index: 3;
+    a {
+        font-size: 16px;
+        color: #444549;
+    }
+    p {
+        color: #444549;
+        font-size: 14px;
+        margin: 0;
+    }
 }

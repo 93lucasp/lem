@@ -1,0 +1,17 @@
+.pattern-home {
+    position: fixed;
+    top: -200px;
+    left: -500px;
+    right: -200px;
+    bottom: -300px;
+    z-index: 2;
+    background-image: url('/assets/images/pattern.png');
+    background-position: center;
+    background-size: cover;
+    @media (max-width: 992px) {
+        top: -530px;
+        left: -500px;
+        right: -200px;
+        bottom: -806px;
+    }
+}

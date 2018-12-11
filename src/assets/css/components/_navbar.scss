@@ -1,5 +1,11 @@
 .navbar {
-    height: 60px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 9;
     ul,
     li {
         margin: 0;

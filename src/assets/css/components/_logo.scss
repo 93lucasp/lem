@@ -1,7 +1,11 @@
 .logo {
     &--absolute {
         position: absolute;
-        top: 60px;
-        width: 300px;
+        top: 30px;
+        width: 200px;
+        @media (max-width: 992px) {
+            width: 300px;
+            top: 60px;
+        }
     }
 }
