@@ -12,10 +12,15 @@
 }
 
 .lb-close {
-    background: url("/assets/images/icons/close.png") top right no-repeat !important;
+    background: url("/assets/images/icons/close.svg") top right no-repeat !important;
 }
 
-// .lightboxOverlay {
-//     opacity: 1;
-//     background-color: #fff,
-// }
+.lightboxOverlay {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .9),
+}
+
+.lightbox .lb-image {
+    border-radius: 0;
+    border: 1px solid #444549;
+}

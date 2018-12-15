@@ -6657,9 +6657,21 @@ html.lb-disable-scrolling {
 .projects-page .nav-tabs {
   margin-top: 120px; }
 
+.projects-page .table--listProjects {
+  color: #8F9197;
+  text-decoration: none;
+  cursor: default; }
+  .projects-page .table--listProjects .icon {
+    visibility: hidden; }
+  .projects-page .table--listProjects.hasLink {
+    color: #444549;
+    cursor: pointer; }
+    .projects-page .table--listProjects.hasLink .icon {
+      visibility: visible; }
+
 .project {
   height: 310px;
-  width: 400px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -6674,6 +6686,9 @@ html.lb-disable-scrolling {
     bottom: 0;
     z-index: 1;
     display: none; }
+    @media (max-width: 992px) {
+      .project__opacity {
+        display: block; } }
   .project__info {
     padding: 30px 16px;
     color: #fff;
@@ -6684,6 +6699,10 @@ html.lb-disable-scrolling {
     right: 0;
     z-index: 2;
     transition: all .2s; }
+    @media (max-width: 992px) {
+      .project__info {
+        bottom: 0;
+        opacity: 1; } }
   .project__title {
     color: #fff;
     font-size: 32px; }
@@ -6729,7 +6748,6 @@ html.lb-disable-scrolling {
   right: -200px;
   bottom: -300px;
   z-index: 2;
-  background-image: url("/assets/images/pattern.png");
   background-position: center;
   background-size: cover; }
   @media (max-width: 992px) {
@@ -6749,7 +6767,15 @@ html.lb-disable-scrolling {
   background: url("/assets/images/icons/loading.gif") no-repeat !important; }
 
 .lb-close {
-  background: url("/assets/images/icons/close.png") top right no-repeat !important; }
+  background: url("/assets/images/icons/close.svg") top right no-repeat !important; }
+
+.lightboxOverlay {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.lightbox .lb-image {
+  border-radius: 0;
+  border: 1px solid #444549; }
 
 .studioPage .pattern {
   position: absolute;

@@ -14,4 +14,19 @@
     .nav-tabs {
         margin-top: 120px;
     }
+    .table--listProjects {
+        color: #8F9197;
+        text-decoration: none;
+        cursor: default;
+        .icon {
+            visibility: hidden;
+        }
+        &.hasLink {
+            color: #444549;
+            cursor: pointer;
+            .icon {
+                visibility: visible;
+            }
+        }
+    }
 }

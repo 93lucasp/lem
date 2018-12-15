@@ -1,6 +1,6 @@
 .project {
     height: 310px;
-    width: 400px;
+    width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -15,6 +15,9 @@
         bottom: 0;
         z-index: 1;
         display: none;
+        @media (max-width: 992px) {
+            display: block;
+        }
     }
     &__info {
         padding: 30px 16px;
@@ -26,6 +29,10 @@
         right: 0;
         z-index: 2;
         transition: all .2s;
+        @media (max-width: 992px) {
+            bottom: 0;
+            opacity: 1;
+        }
     }
     &__title {
         color: #fff;
