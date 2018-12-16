@@ -6617,6 +6617,10 @@ html.lb-disable-scrolling {
       opacity: 1;
       margin-left: 15px; }
 
+@media (max-width: 992px) {
+  .logo {
+    width: 140px; } }
+
 .logo--absolute {
   position: absolute;
   top: 30px;
@@ -6650,12 +6654,19 @@ html.lb-disable-scrolling {
   border: 0;
   color: #000;
   font-size: 26px; }
+  @media (max-width: 576px) {
+    .projects-page .nav-tabs,
+    .projects-page .nav-link {
+      font-size: 14px; } }
   .projects-page .nav-tabs.active,
   .projects-page .nav-link.active {
     font-family: 'HellixBold'; }
 
 .projects-page .nav-tabs {
   margin-top: 120px; }
+
+.projects-page #nav-allProjects h6 {
+  font-size: 12px; }
 
 .projects-page .table--listProjects {
   color: #8F9197;
@@ -6688,7 +6699,8 @@ html.lb-disable-scrolling {
     display: none; }
     @media (max-width: 992px) {
       .project__opacity {
-        display: block; } }
+        display: block;
+        background-color: rgba(68, 69, 73, 0.6); } }
   .project__info {
     padding: 30px 16px;
     color: #fff;
@@ -6722,6 +6734,9 @@ html.lb-disable-scrolling {
     height: 500px;
     background-position: center;
     background-size: cover; }
+    @media (max-width: 992px) {
+      .projectPage__mainImg {
+        height: 250px; } }
   .projectPage__images {
     background-position: center;
     background-size: cover;

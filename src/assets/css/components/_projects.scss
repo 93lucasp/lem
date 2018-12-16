@@ -7,12 +7,20 @@
         border: 0;
         color: #000;
         font-size: 26px;
+        @media (max-width: 576px) {
+            font-size: 14px;
+        }
         &.active {
             font-family: 'HellixBold';
         }
     }
     .nav-tabs {
         margin-top: 120px;
+    }
+    #nav-allProjects {
+        h6 {
+            font-size: 12px;
+        }
     }
     .table--listProjects {
         color: #8F9197;

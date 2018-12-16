@@ -1,4 +1,7 @@
 .logo {
+    @media (max-width: 992px) {
+        width: 140px;
+    }
     &--absolute {
         position: absolute;
         top: 30px;
