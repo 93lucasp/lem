@@ -128,5 +128,5 @@ gulp.watch('./src/assets/js/**/*.js', ['copy-js']).on('change', browserSync.relo
 
 // TASKS TO RUN
 // gulp.task('build', gulpSequence('clean', 'build-sass', 'build-js-vendors', 'copy-into-public', 'build-hbs'));
-gulp.task('public', gulpSequence('clean', 'build-sass', 'autoprefixer-css', 'minify-css', 'copy-font', 'copy-images', 'copy-videos', 'concat-js', 'build-hbs', 'html-replace'));
+gulp.task('public', gulpSequence('clean', 'build-sass', 'autoprefixer-css', 'minify-css', 'copy-font', 'copy-images', 'copy-videos', 'concat-js', 'build-hbs', 'html-replace', 'serve'));
 gulp.task('default', gulpSequence('build-sass', 'autoprefixer-css', 'build-js-vendors', 'copy-js', 'copy-font', 'copy-images', 'copy-videos', 'build-hbs', 'serve'));

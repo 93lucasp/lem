@@ -6758,16 +6758,16 @@ html.lb-disable-scrolling {
       bottom: -806px; } }
 
 .lb-prev {
-  background: url("/assets/images/icons/prev.png") left 48% no-repeat !important; }
+  background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/prev.png") left 48% no-repeat !important; }
 
 .lb-next {
-  background: url("/assets/images/icons/next.png") right 48% no-repeat !important; }
+  background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/next.png") right 48% no-repeat !important; }
 
 .lb-cancel {
-  background: url("/assets/images/icons/loading.gif") no-repeat !important; }
+  background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/loading.gif") no-repeat !important; }
 
 .lb-close {
-  background: url("/assets/images/icons/close.svg") top right no-repeat !important; }
+  background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/close.svg") top right no-repeat !important; }
 
 .lightboxOverlay {
   opacity: 1;
