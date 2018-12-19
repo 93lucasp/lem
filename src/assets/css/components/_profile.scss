@@ -1,0 +1,50 @@
+.profilePage {
+    background-color: #FFF;
+    min-height: 100vh;
+    @media (max-width: 992px) {
+        padding: 60px 0;
+    }
+    .back {
+        position: absolute;
+        top: -30px;
+        right: 0px;
+        @media (max-width: 992px) {
+            top: -50px;
+            right: 10px;
+        }
+    }
+    .photo {
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        @media (max-width: 992px) {
+           margin-bottom: 15px;
+        }  
+    }
+    .title {
+        font-family: 'HellixBold';
+        color: #444549;
+        font-size: 32px;
+    }
+    .position {
+        color: #444549;
+        font-size: 24px;
+    }
+    .description {
+        font-size: 16px;
+        color: #444549;
+    }
+    .subtitle {
+        color: #8F9197;
+        font-size: 16px;
+    }
+    .link {
+        color:#444549;
+    }
+    .line {
+        width: 100px;
+        height: 1px;
+        background-color: #444549;
+    }
+}

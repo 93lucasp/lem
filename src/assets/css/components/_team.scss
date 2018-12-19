@@ -1,0 +1,19 @@
+.team {
+    margin-bottom: 40px;
+    &__photo {
+        height: 230px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+    &__name {
+        color: #444549;
+        font-family: 'HellixBold';
+        font-size: 16px;
+        margin: 0;
+    }
+    &__position {
+        color: #444549;
+        font-size: 12px;
+    }
+}

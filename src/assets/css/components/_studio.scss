@@ -1,4 +1,7 @@
 .studioPage {
+    .link-studio {
+        font-family: 'HellixBold';
+    }
     .pattern {
         position: absolute;
         top: 0;
@@ -7,5 +10,30 @@
         height: 250%;
         background-size: cover;
         background-position: center;
+    }
+    .line-studio {
+        margin-left: auto;
+        width: 130px;
+        background-color: #444549;
+        height: 1px;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        @media (max-width: 992px) {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+    }
+    &__title {
+       color: #444549;
+       font-family: 'HellixBold';
+       font-size: 24px;
+       letter-spacing: 1.5px;	line-height: 34px;
+    }
+    &__text {
+        color: #444549;
+        font-size: 16px;
+        letter-spacing: 1px;	line-height: 24px;
     }
 }
