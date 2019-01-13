@@ -1,4 +1,9 @@
 .projects-page {
+    .container-fluid {
+     
+            min-height: 100vh;
+      
+    }
     .link-projects {
         font-family: 'HellixBold';
     }
@@ -6,7 +11,7 @@
     .nav-link {
         border: 0;
         color: #000;
-        font-size: 26px;
+        font-size: 24px;
         @media (max-width: 576px) {
             font-size: 14px;
         }

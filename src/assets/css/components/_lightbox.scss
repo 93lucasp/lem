@@ -1,9 +1,13 @@
 .lb-prev {
+  
     background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/prev.png") left 48% no-repeat !important;
     // transform: rotate(-180deg);
 }
-
+a.lb-prev,a.lb-next {
+    background-size: 46px!important;
+}
 .lb-next {
+   
     background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/next.png") right 48% no-repeat !important;
 }
 

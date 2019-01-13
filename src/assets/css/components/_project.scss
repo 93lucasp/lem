@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     overflow: hidden;
     &__opacity {
         background-color: rgba(68, 69, 73, .8);
@@ -14,7 +14,8 @@
         left: 0;
         bottom: 0;
         z-index: 1;
-        display: none;
+       opacity: 0;
+       transition: all .4s;
         @media (max-width: 992px) {
             display: block;
             background-color: rgba(68, 69, 73, .6);
@@ -29,7 +30,7 @@
         left: 0;
         right: 0;
         z-index: 2;
-        transition: all .2s;
+        transition: all .4s;
         @media (max-width: 992px) {
             bottom: 0;
             opacity: 1;
@@ -38,6 +39,7 @@
     &__title {
         color: #fff;
         font-size: 32px;
+        font-family: 'HellixBold';
         &:hover {
             text-decoration: none;
             color: #fff;
@@ -49,7 +51,7 @@
             opacity: 1;
         }
         .project__opacity {
-            display: block;
+            opacity: 0+1;
         }
     }
 }
