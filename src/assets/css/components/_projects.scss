@@ -1,9 +1,8 @@
 .projects-page {
-    .container-fluid {
-     
-            min-height: 100vh;
-      
-    }
+    min-height: 100vh;
+    display: flex !important;
+    flex-direction: column !important;
+   
     .link-projects {
         font-family: 'HellixBold';
     }

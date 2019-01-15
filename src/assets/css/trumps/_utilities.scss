@@ -11,3 +11,9 @@
         text-decoration: none;
     }
 }
+.w-40-resp {
+    @media (max-width: 992px) {
+        width: 40%!important;
+    }
+   
+}

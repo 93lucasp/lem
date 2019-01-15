@@ -11,4 +11,35 @@
             top: 60px;
         }
     }
+    &--effect {
+        position: fixed;
+        top: calc(50vh - 50.55px);
+        width: 200px;
+        transform: scale(2);
+        @media (max-width: 992px) {
+            transform: scale(1.6);
+        }
+        
+        &--animated {
+            animation-name: logo;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards; 
+        }
+        
+    }
+    @keyframes logo {
+        from {
+            top: calc(50vh - 50.55px);
+            @media (min-width: 992px) {
+            transform: scale(2);}
+            @media (max-width: 992px) {
+                transform: scale(1.6);
+            }
+        }
+        to {
+            top: 30px;
+            transform: scale(1);
+        }
+    }
 }
