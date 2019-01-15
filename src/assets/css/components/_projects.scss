@@ -5,12 +5,15 @@
    
     .link-projects {
         font-family: 'HellixBold';
+        @media (max-width: 992px) {
+            color: #333;
+        }
     }
     .nav-tabs,
     .nav-link {
         border: 0;
         color: #000;
-        font-size: 24px;
+        font-size: 28px;
         @media (max-width: 576px) {
             font-size: 14px;
         }
@@ -22,8 +25,15 @@
         margin-top: 120px;
     }
     #nav-allProjects {
+        
         h6 {
             font-size: 12px;
+        }
+        .row-title {
+           
+                h6 {
+                font-size: 14px;}
+           
         }
     }
     .table--listProjects {

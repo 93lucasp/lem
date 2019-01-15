@@ -1,6 +1,9 @@
 .studioPage {
     .link-studio {
         font-family: 'HellixBold';
+        @media (max-width: 992px) {
+            color: #333;
+        }
     }
     .pattern {
         position: absolute;

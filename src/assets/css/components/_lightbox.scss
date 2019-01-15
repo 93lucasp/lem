@@ -18,7 +18,9 @@ a.lb-prev,a.lb-next {
 .lb-close {
     background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/close.svg") top right no-repeat !important;
 }
-
+.lightbox .lb-image {
+    border: 0!important;
+}
 .lightboxOverlay {
     opacity: 1;
     background-color: rgba(255, 255, 255, .9),

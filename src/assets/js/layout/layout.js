@@ -4,4 +4,8 @@ $(window).on("load", function() {
     $(".cta__line--2").addClass("cta__line--2--animated");
     $(".cta__title").addClass("cta__title--animated");
     $(".footer-home").addClass("footer-home--animated");
+    $(".hamburger").click(function(){
+        $(this).toggleClass("hamburger--active")
+        $('.navbar__menu').toggleClass("navbar__menu--opened")
+      });
 });

@@ -6526,6 +6526,35 @@ html.lb-disable-scrolling {
   right: 0;
   background-color: #fff;
   z-index: 9; }
+  .navbar__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 9;
+    transition: all .4s; }
+    .navbar__menu--opened {
+      bottom: 0;
+      height: 100%; }
+    .navbar__menu ul {
+      margin-top: 100px !important; }
+    .navbar__menu li {
+      margin-bottom: 20px !important;
+      padding-left: 40px !important; }
+    .navbar__menu .link-mobile {
+      color: #8F9197;
+      font-size: 40px; }
+    .navbar__menu .contact {
+      padding-left: 40px !important;
+      margin-top: 200px; }
+      .navbar__menu .contact p, .navbar__menu .contact a {
+        font-size: 16px;
+        color: rgba(68, 69, 73, 0.7); }
+      .navbar__menu .contact p {
+        color: #444549; }
   .navbar ul,
   .navbar li {
     margin: 0;
@@ -6534,6 +6563,52 @@ html.lb-disable-scrolling {
     .navbar li a {
       color: #333;
       text-decoration: none; }
+  @media (min-width: 992px) {
+    .navbar ul {
+      margin-top: 4px; } }
+  .navbar .hamburger {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 10; }
+    .navbar .hamburger__item {
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      transition: all .4s; }
+      .navbar .hamburger__item:before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -10px;
+        transition: all .4s; }
+      .navbar .hamburger__item:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        transition: all .4s; }
+    .navbar .hamburger--active .hamburger__item {
+      transform: rotate(-90deg);
+      background-color: transparent; }
+      .navbar .hamburger--active .hamburger__item:before {
+        transform: rotate(-45deg);
+        top: 0; }
+      .navbar .hamburger--active .hamburger__item:after {
+        transform: rotate(45deg);
+        bottom: 0; }
 
 .footer-home {
   color: #fff;
@@ -6748,11 +6823,14 @@ html.lb-disable-scrolling {
   flex-direction: column !important; }
   .projects-page .link-projects {
     font-family: 'HellixBold'; }
+    @media (max-width: 992px) {
+      .projects-page .link-projects {
+        color: #333; } }
   .projects-page .nav-tabs,
   .projects-page .nav-link {
     border: 0;
     color: #000;
-    font-size: 24px; }
+    font-size: 28px; }
     @media (max-width: 576px) {
       .projects-page .nav-tabs,
       .projects-page .nav-link {
@@ -6764,6 +6842,8 @@ html.lb-disable-scrolling {
     margin-top: 120px; }
   .projects-page #nav-allProjects h6 {
     font-size: 12px; }
+  .projects-page #nav-allProjects .row-title h6 {
+    font-size: 14px; }
   .projects-page .table--listProjects {
     color: #8F9197;
     text-decoration: none;
@@ -6814,7 +6894,7 @@ html.lb-disable-scrolling {
         opacity: 1; } }
   .project__title {
     color: #fff;
-    font-size: 32px;
+    font-size: 30px;
     font-family: 'HellixBold'; }
     .project__title:hover {
       text-decoration: none;
@@ -6858,7 +6938,7 @@ html.lb-disable-scrolling {
   position: fixed;
   top: -200px;
   left: -500px;
-  right: -200px;
+  right: -320px;
   bottom: -300px;
   z-index: 2;
   background-position: center;
@@ -6884,6 +6964,9 @@ a.lb-prev, a.lb-next {
 
 .lb-close {
   background: url("http://agenzialem.it/wp-content/themes/lem/images/icons/close.svg") top right no-repeat !important; }
+
+.lightbox .lb-image {
+  border: 0 !important; }
 
 .lightboxOverlay {
   opacity: 1;
@@ -6913,6 +6996,9 @@ a.lb-prev, a.lb-next {
 
 .studioPage .link-studio {
   font-family: 'HellixBold'; }
+  @media (max-width: 992px) {
+    .studioPage .link-studio {
+      color: #333; } }
 
 .studioPage .pattern {
   position: absolute;
@@ -7005,3 +7091,6 @@ a.lb-prev, a.lb-next {
 @media (max-width: 992px) {
   .w-40-resp {
     width: 40% !important; } }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
