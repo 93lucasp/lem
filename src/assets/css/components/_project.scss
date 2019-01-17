@@ -1,6 +1,9 @@
 .project {
     height: 310px;
     width: 100%;
+    @media (max-width: 992px) {
+        height: 340px;
+    }
     background-position: center;
     background-size: cover;
     position: relative;
@@ -34,6 +37,12 @@
         @media (max-width: 992px) {
             bottom: 0;
             opacity: 1;
+            color: #444549;
+            background-color: #fff;
+            font-size: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0;
         }
     }
     &__title {
@@ -42,7 +51,14 @@
         font-family: 'HellixBold';
         &:hover {
             text-decoration: none;
-            color: #fff;
+            
+            @media (min-width: 992px) {
+                color: #fff;
+            }
+        }
+        @media (max-width: 992px) {
+            color: #444549;
+            font-size: 16px;
         }
     }
     &:hover {
@@ -51,7 +67,9 @@
             opacity: 1;
         }
         .project__opacity {
+            @media (min-width: 992px) {
             opacity: 0+1;
+        }
         }
     }
 }

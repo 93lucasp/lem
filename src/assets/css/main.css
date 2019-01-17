@@ -6858,6 +6858,9 @@ html.lb-disable-scrolling {
   position: relative;
   margin-bottom: 30px;
   overflow: hidden; }
+  @media (max-width: 992px) {
+    .project {
+      height: 340px; } }
   .project__opacity {
     background-color: rgba(68, 69, 73, 0.8);
     position: absolute;
@@ -6885,19 +6888,32 @@ html.lb-disable-scrolling {
     @media (max-width: 992px) {
       .project__info {
         bottom: 0;
-        opacity: 1; } }
+        opacity: 1;
+        color: #444549;
+        background-color: #fff;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0; } }
   .project__title {
     color: #fff;
     font-size: 30px;
     font-family: 'HellixBold'; }
     .project__title:hover {
-      text-decoration: none;
-      color: #fff; }
+      text-decoration: none; }
+      @media (min-width: 992px) {
+        .project__title:hover {
+          color: #fff; } }
+    @media (max-width: 992px) {
+      .project__title {
+        color: #444549;
+        font-size: 16px; } }
   .project:hover .project__info {
     bottom: 0;
     opacity: 1; }
-  .project:hover .project__opacity {
-    opacity: 1; }
+  @media (min-width: 992px) {
+    .project:hover .project__opacity {
+      opacity: 1; } }
 
 .projectPage {
   margin-top: 130px; }
@@ -6908,11 +6924,17 @@ html.lb-disable-scrolling {
     background-size: cover; }
     @media (max-width: 992px) {
       .projectPage__mainImg {
-        height: 250px; } }
+        height: 300px; } }
   .projectPage__images {
     background-position: center;
     background-size: cover;
     height: 400px; }
+    @media (max-width: 992px) {
+      .projectPage__images {
+        height: 250px; } }
+    @media (max-width: 992px) {
+      .projectPage__images--vertical {
+        height: 450px; } }
   .projectPage__title {
     font-family: 'HellixBold';
     font-size: 32px;
@@ -6977,6 +6999,9 @@ a.lb-prev, a.lb-next {
     background-position: center;
     background-size: cover;
     margin-bottom: 10px; }
+    @media (max-width: 992px) {
+      .team__photo {
+        height: 345px; } }
   .team:hover .team__photo {
     opacity: .8; }
   .team__name {

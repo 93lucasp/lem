@@ -5,6 +5,9 @@
         background-position: center;
         background-size: cover;
         margin-bottom: 10px;
+        @media (max-width: 992px) {
+            height: 345px;
+        }
     }
     &:hover {
         .team__photo {
