@@ -6776,10 +6776,7 @@ html.lb-disable-scrolling {
   position: fixed;
   top: calc(50vh - 50.55px);
   width: 200px;
-  transform: scale(2); }
-  @media (max-width: 992px) {
-    .logo--effect {
-      transform: scale(1.6); } }
+  transform: scale(1.8); }
   .logo--effect--animated {
     animation-name: logo;
     animation-duration: 2s;
@@ -6789,10 +6786,7 @@ html.lb-disable-scrolling {
 @keyframes logo {
   from {
     top: calc(50vh - 50.55px);
-    @media (min-width: 992px) {
-      transform: scale(2); }
-    @media (max-width: 992px) {
-      transform: scale(1.6); } }
+    transform: scale(1.8); }
   to {
     top: 30px;
     transform: scale(1); } }
