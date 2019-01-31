@@ -7286,8 +7286,9 @@ table.dataTable td {
     font-size: 14px; }
   .projects-page #nav-allProjects .row-title h6 {
     font-size: 16px; }
-  .projects-page #nav-tabContent {
-    overflow: scroll; }
+  @media (max-width: 576px) {
+    .projects-page #nav-tabContent {
+      overflow: scroll; } }
   .projects-page .table--listProjects {
     color: #8F9197;
     text-decoration: none;
