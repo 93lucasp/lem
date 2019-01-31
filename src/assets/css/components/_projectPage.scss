@@ -1,5 +1,6 @@
 .projectPage {
     margin-top: 130px;
+    
     &__mainImg {
         width: 100%;
         height: 600px;
@@ -34,6 +35,15 @@
     &__label {
         color: #8F9197;
         font-size: 16px;
+    }
+    .row--3 {
+        @media (min-width: 992px) {
+        .projectPage__images {
+            height: 380px;
+        }
+        .projectPage__images--vertical {
+            height: calc(100% - 30px);
+        }}
     }
     .paragraph-end {
         color: #444549;

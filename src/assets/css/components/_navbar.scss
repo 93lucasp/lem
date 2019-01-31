@@ -6,6 +6,9 @@
     right: 0;
     background-color: #fff;
     z-index: 9;
+    &.border-bottomScroll {
+        border-bottom: 1px solid #D1D2D4;
+    }
     &__menu {
         position: fixed;
         top: 0;

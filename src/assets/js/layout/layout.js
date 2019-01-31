@@ -9,3 +9,21 @@ $(window).on("load", function() {
         $('.navbar__menu').toggleClass("navbar__menu--opened")
       });
 });
+    $(document).ready(function() {
+        $('#listProject').DataTable( {
+            paging: false,
+            searching: false,
+            bInfo : false,
+            responsive: true
+        } );
+        $(window).scroll(function (event) {
+            var scroll = $(window).scrollTop();
+           if (scroll > 30) {
+               $('.navbar').addClass('border-bottomScroll');
+           } else {
+            $('.navbar').removeClass('border-bottomScroll');
+           }
+        });
+    } );
+
+    

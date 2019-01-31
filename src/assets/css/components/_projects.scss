@@ -36,8 +36,16 @@
            
         }
     }
+    #nav-tabContent {
+        overflow: scroll;
+    }
     .table--listProjects {
         color: #8F9197;
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #96989E;
+        }
         text-decoration: none;
         cursor: default;
         .icon {
@@ -45,6 +53,9 @@
         }
         &.hasLink {
             color: #444549;
+            a {
+                color: #444549;
+            }
             cursor: pointer;
             .icon {
                 visibility: visible;
