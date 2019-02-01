@@ -2,7 +2,6 @@
     min-height: 100vh;
     display: flex !important;
     flex-direction: column !important;
-   
     .link-projects {
         font-family: 'HellixBold';
         @media (max-width: 992px) {
@@ -25,20 +24,18 @@
         margin-top: 120px;
     }
     #nav-allProjects {
-        
         h6 {
             font-size: 14px;
         }
         .row-title {
-           
-                h6 {
-                font-size: 16px;}
-           
+            h6 {
+                font-size: 16px;
+            }
         }
     }
     #nav-tabContent {
         @media (max-width: 576px) {
-        overflow: scroll;
+            overflow: scroll;
         }
     }
     .table--listProjects {
@@ -47,6 +44,7 @@
             text-decoration: none;
             font-size: 14px;
             color: #96989E;
+            cursor: default;
         }
         text-decoration: none;
         cursor: default;
@@ -57,8 +55,8 @@
             color: #444549;
             a {
                 color: #444549;
+                cursor: pointer;
             }
-            cursor: pointer;
             .icon {
                 visibility: visible;
             }

@@ -7296,14 +7296,15 @@ table.dataTable td {
     .projects-page .table--listProjects a {
       text-decoration: none;
       font-size: 14px;
-      color: #96989E; }
+      color: #96989E;
+      cursor: default; }
     .projects-page .table--listProjects .icon {
       visibility: hidden; }
     .projects-page .table--listProjects.hasLink {
-      color: #444549;
-      cursor: pointer; }
+      color: #444549; }
       .projects-page .table--listProjects.hasLink a {
-        color: #444549; }
+        color: #444549;
+        cursor: pointer; }
       .projects-page .table--listProjects.hasLink .icon {
         visibility: visible; }
 
