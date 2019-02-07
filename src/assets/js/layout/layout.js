@@ -14,7 +14,8 @@ $(window).on("load", function() {
             paging: false,
             searching: false,
             bInfo : false,
-            responsive: true
+            responsive: true,
+            order: [[ 4, 'desc' ]]
         } );
         $(window).scroll(function (event) {
             var scroll = $(window).scrollTop();

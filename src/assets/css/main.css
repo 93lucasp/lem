@@ -7286,9 +7286,6 @@ table.dataTable td {
     font-size: 14px; }
   .projects-page #nav-allProjects .row-title h6 {
     font-size: 16px; }
-  @media (max-width: 576px) {
-    .projects-page #nav-tabContent {
-      overflow: scroll; } }
   .projects-page .table--listProjects {
     color: #8F9197;
     text-decoration: none;
@@ -7564,6 +7561,8 @@ a.lb-prev, a.lb-next {
   border-top: 1px solid #000 !important;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important; }
+  .dataTables_wrapper td:last-child {
+    white-space: nowrap; }
 
 .dataTables_wrapper th {
   font-size: 16px;
